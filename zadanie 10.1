@@ -1,0 +1,9 @@
+def palindrom (P):
+    for x in range(len(P)//2):
+        if P[0 + x] == P[-1 - x]:
+            return True 
+P = input("Podaj slowo: ")
+if palindrom(P):
+    print ("tak")
+else:
+    print ("nie")
